@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(248,236,228);
+}
+
+.everything{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.text{
+    background-color: white;
+    padding: 31px;
+    border: 1px solid white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+img{
+    height: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+.text p{
+    font-size: 17px;
+    word-spacing: 5px;
+    line-height: 24px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart{
+    padding: 16px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color:rgb(64,132,108) ;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    gap: 15px;
+}
